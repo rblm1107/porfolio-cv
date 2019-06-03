@@ -58,6 +58,10 @@ background: #222;
 .reseaux-sos img{
     width: 40px;
 }
+.reseaux-sos img:hover{
+    border-radius: 50%;
+    background: #ccc;
+}
 #logo-mail{
     width: 30px;
 }
@@ -199,4 +203,20 @@ background: #222;
     right: -14px;
 }
 
+}
+/* page accueil */
+.language img{
+    width: 100px ;
+}
+#phone{
+    width: 50% ;
+}
+/* page contact */
+#contact{
+     background: #222;
+    
+    /* height:700px; */
+}
+.formulaire input, .formulaire textarea{
+    background: #eedd;
 }
