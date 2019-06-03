@@ -6,19 +6,363 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mon CV</title>
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav></nav>
+    <header id="heading" class="container-fluid text-light">
+        <h1 class="text-center text-info">MON CURRICURUM VITAE</h1>
     </header>
-    <section class="contact"></section>
+
+
+    <!--debut de la navbar-->
+    <section id="banner" class="text-center py-5 container-fluid">
+        <!--debut de ma barre de navigation-->
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#"><img class="logo" src="./public/images/monLogo.png" alt="logo"
+                    title="BELMUSTAPHA RAHMA"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-align-justify text-light"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Acceuil<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cv.html">curriculum vitae</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- fin de nav -->
+
+        <div class="row">
+            <div class="col-md-4 offset-4">
+                <img class="rounded-circle py-5" src="./public/images/avatar/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="about">
+            <h1 class="text-uppercase">rahma belmustapha</h1>
+            <h3 class="pb-5 text-secondary">Développeuse Web</h3>
+            <a class="border border-secondary mt-5 py-2 px-4 text-light bold" href="">VOIR CV</a>
+            <a class="border border-secondary bg-info mt-5 py-2 px-4 text-light bold" href="">TELECHARGER</a>
+            <!-- <div class="container w-50">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="border border-secondary mt-5 py-2 text-light bold" href="">VOIR CV</a>
+                    </div>
+                    <div class="col-md-1">
+                        <p> Ou</p>
+                    </div>
+                    <div class="col-md-5">
+                        <a class="border border-secondary bg-info mt-5 py-2 px-4 text-light bold"
+                            href="">TELECHARGER</a>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+    </section>
+
+    <!-- section experience -->
+    <section class="container text-center">
+        <h1 class="text-center py-5"><span class="span-title">Mes</span> Expériences Professionnelles</h1>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 border rounded-lg border-light bg-info text-light py-3">
+                <i class="fas fa-briefcase fa-2x"></i>
+                <p class="text-dark">2011</p>
+                <h4 class="text-uppercase">Stage chez<small>
+                        <a class="text-dark " href="https://ma.kompass.com/c/etoile-de-l-oriental/ma3270343/">Etoile
+                            de l'Oriental </a></small>
+                </h4>
+                <h6 class="text-uppercase pb-4">Imprimerie</h6>
+                <p>faire des carte de visite et des flayers en utilisant photoshop et illustrateur</p>
+                <p><small>DUREE: 20 Jours</small></p>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 border rounded-lg border-light bg-warning text-light py-3">
+                <i class="fas fa-network-wired fa-2x"></i>
+                <p class="text-secondary">2009-2010 </p>
+                <h4 class="text-uppercase">Travaille chez <small>
+                        <a class="text-secondary" href="">BOUKHARI-CARS</a></small>
+                </h4>
+                <h6 class="text-uppercase pb-4">Agence de location de voiture</h6>
+                <p>Accueil et Communiquation - Location - Gestion</p>
+                <p><small>DUREE: 10 mois</small></p>
+            </div>
+        </div>
+    </section>
+    <!-- fin de section experience  -->
+    <!-- debut de formation -->
+    <section class="container-fluid formation bg-dark text-light mt-5 ">
+        <div class="">
+            <h1 class="text-center py-5"><span class="span-title">Mes</span> Formations</h1>
+            <ul class="line">
+                <li>
+                    <div>
+                        <i class="fas fa-briefcase fa-2x bg-info rounded-circle p-2 badg"></i> </div>
+                    <div class="panel-container">
+                        <div class="panel text-center">
+                            <h4>Junior Web Developper</h4>
+
+                            <p><small>
+                                    <i class="fas fa-hourglass-start"></i>
+                                    2018 - 2019</small></p>
+                            <p>
+                                Formation de 6 mois -Développeur web et application- à <a
+                                    href="https://molengeek.com/">Molengeek</a></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <i class="fas fa-briefcase fa-2x bg-dark rounded-circle p-2 badg"></i> </div>
+                    <div class="panel-container-inverse panel-container-query">
+                        <div class="panel">
+                            <h4>Junior Web Developper</h4>
+
+                            <p><small>
+                                    <i class="fas fa-hourglass-start"></i>
+                                    2018</small></p>
+                            <p>
+                                Pré-formation de 2 mois - Développeur web et application - avec la mission locale de
+                                Schaerbeek</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <i class="fas fa-briefcase fa-2x bg-dark rounded-circle p-2 badg"></i> </div>
+                    <div class="panel-container">
+                        <div class="panel text-center">
+                            <h4>Dessin Assisté par Ordinateur</h4>
+
+                            <p><small>
+                                    <i class="fas fa-hourglass-start"></i>
+                                    2018 </small></p>
+                            <p>
+                                Formation Autocad niveau débutant avec <a href="https://www.tase.be/fr"
+                                    target="_blank">tase researche</a></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <i class="fas fa-briefcase fa-2x bg-dark rounded-circle p-2 badg"></i> </div>
+                    <div class="panel-container-inverse panel-container-query">
+                        <div class="panel">
+                            <h4>Neerlandais</h4>
+
+                            <p><small>
+                                    <i class="fas fa-hourglass-start"></i>
+                                    2015-1018</small></p>
+                            <p>Cour de langue IEPSCF et CVO</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <i class="fas fa-briefcase fa-2x bg-dark rounded-circle p-2 badg"></i> </div>
+                    <div class="panel-container-inverse panel-container-query">
+                        <div class="panel">
+                            <h4>Intégration Sociale</h4>
+
+                            <p><small>
+                                    <i class="fas fa-hourglass-start"></i>
+                                    2017</small></p>
+                            <p>Cour d'integration sociale pendant 2 mois avec <a href="https://bon.be/fr"
+                                    target="_Parfait_">BON</a></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <i class="fas fa-briefcase fa-2x bg-dark rounded-circle p-2 badg"></i> </div>
+                    <div class="panel-container">
+                        <div class="panel text-center">
+                            <h4>Informatique Géneral</h4>
+
+                            <p><small>
+                                    <i class="fas fa-hourglass-start"></i>
+                                    2010</small></p>
+                            <p>
+                                Attestation en Informatique des bases en bureautique, installation, architecture et
+                                maintenance des ordinateurs</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="fas fa-briefcase fa-2x bg-dark rounded-circle p-2 badg"></i> </div>
+                    <div class="panel-container-inverse panel-container-query">
+                        <div class="panel">
+                            <h4>Baccalaureat</h4>
+
+                            <p><small>
+                                    <i class="fas fa-hourglass-start"></i>
+                                    2008</small></p>
+                            <p>Diplôme en Science Economique et Gestion Comptable <br> Equivalence CESS</p>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- 
+                
+                <li>2015-2018: Cours de langue (Nerlandais)</li>
+                 -->
+            </ul>
+        </div>
+    </section>
+    <!-- fin de section formation -->
+    <!-- section logiciels informatique -->
+    <section class="container py-5">
+        <h3 class="py-5 text-center "><span class="span-title">Mes</span> COMPETENCE EN PROGRAMMATION</h3>
+        <div class="row">
+            <div class="col-6">
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100">HTML</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100">CSS</div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-danger " role="progressbar" style="width: 90%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100">SASS</div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100">PHP</div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100">GIT & GITHUB</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100">BOOTSTRAP</div>
+                </div>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100">WORDPRESS-DEVELOPPER</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news-letter bg-info p-2 pb-5">
+        <h1 class="text-center pt-5"><span class="span-title">MA</span> NEWSLETTER</h1>
+        <P class="text-center text-light pb-5">Entrez votre E-mail et inscrivez-vous à ma newsletter</P>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-12">
+                    <input class="w-100 p-2" type="email" name="email" placeholder="Example@example.ex">
+                </div>
+                <div class="col-md-6 col-lg-6 col-12">
+                    <button type="submit" class="w-50 py-2">S'inscrire</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <footer></footer>
 
+    <!-- section langue -->
+    <!-- <section class="langue">
+            <div class="text-center py-5">
+                <h3>Langues :</h3>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">Anglais 25%</div>
+            </div>
+            <div class="progress my-3">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100">Neerlandais & Allemand 50%</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100">Français 80%</div>
+            </div>
+            <div class="progress my-3">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">Arab 95%</div>
+            </div>
+        </section> -->
+    <!-- fin de section langue -->
 
 
+    <section class="porfolio"></section>
+
+    <section class="contact"></section>
+
+    <footer class="py-5">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-12">
+                    <h1 class="py-4"><img src="./public/images/monLogo.png" alt=""></h1>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-12">
+                    <h4 class="py-4">DIVERS || HOBIES</h4>
+                    <div class="divers">
+                        <p>Admirer la Nature</p>
+                        <p>Sport</p>
+                        <p>Voyage</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12 text-center">
+                    <h4 class="py-4">FOLLOW</h4>
+                    <div class="reseaux-sos">
+                        <a href="#"><img src="./public/images/reseaux sociaux/Facebook.png" alt=""></a>
+                        <a href="#"><img src="./public/images/reseaux sociaux/github1600.png" alt=""></a>
+                        <a href="#"><img src="./public/images/reseaux sociaux/linkedin-1.png" alt=""></a>
+                        <a href="#"><img src="./public/images/reseaux sociaux/whatsapp-icon.png" alt=""></a>
+                        <a href="#"><img id="logo-mail" src="./public/images/reseaux sociaux/mail.png" alt=""></a>
+                    </div>
+                    <hr class="bg-dark">
+
+                </div>
+
+            </div>
+            <div class="source text-secondary text-right">
+                <p><small>Développé par Rahma Belmustapha. Ⓒ Coding-scool 2018-2019</small></p>
+            </div>
+        </div>
+
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

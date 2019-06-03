@@ -6,21 +6,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mon CV</title>
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav></nav>
+
+    <header id="heading" class="container-fluid text-light">
+        <h1 class="text-center">BIENVENUE SUR MON SITE</h1>
     </header>
-    <section class="about"></section>
-    <section class="schema"></section>
-    <section class="porfolio"></section>
-    <section class="contact"></section>
-    <footer></footer>
+
+    <!--la fin fin de la navbar-->
+    <section id="banner" class="text-center py-5 container-fluid">
+        <!--debut de ma barre de navigation-->
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#"><img class="logo" src="./public/images/monLogo.png" alt="logo"
+                    title="BELMUSTAPHA RAHMA"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-align-justify text-light"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Acceuil<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cv.html">curriculum vitae</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-md-4 offset-4">
+                <img class="rounded-circle py-5" src="./public/images/avatar/02.jpg" alt="">
+            </div>
+        </div>
+        <div class="about">
+            <h1 class="text-uppercase">rahma belmustapha</h1>
+            <h3 class="pb-5 text-secondary">Développeuse Web</h3>
+            <a class="border border-secondary mt-5 py-2 px-4 text-light bold" href="">VOIR CV</a>
+            <a class="border border-secondary bg-info mt-5 py-2 px-4 text-light bold" href="">TELECHARGER</a>
+            <!-- <div class="container w-50">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a class="border border-secondary mt-5 py-2 text-light bold" href="">VOIR CV</a>
+                        </div>
+                        <div class="col-md-1">
+                            <p> Ou</p>
+                        </div>
+                        <div class="col-md-5">
+                            <a class="border border-secondary bg-info mt-5 py-2 px-4 text-light bold"
+                                href="">TELECHARGER</a>
+                        </div>
+                    </div>
+                </div> -->
 
 
+        </div>
+    </section>
+    <section class="news-letter bg-info p-2 pb-5">
+        <h1 class="text-center pt-5"><span class="span-title">MA</span> NEWSLETTER</h1>
+        <P class="text-center text-light pb-5">Entrez votre E-mail et inscrivez-vous à ma newsletter</P>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-12">
+                    <input class="w-100 p-2" type="email" name="email" placeholder="Example@example.ex">
+                </div>
+                <div class="col-md-6 col-lg-6 col-12">
+                    <button type="submit" class="w-50 py-2">S'inscrire</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="py-5">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-12">
+                    <h1 class="py-4"><img src="./public/images/monLogo.png" alt=""></h1>
+                </div>
+
+                <div class="col-md-4 col-lg-4 col-12">
+                    <h4 class="py-4">DIVERS || HOBIES</h4>
+                    <div class="divers">
+                        <p>Admirer la Nature</p>
+                        <p>Sport</p>
+                        <p>Voyage</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-12 text-center">
+                    <h4 class="py-4">FOLLOW</h4>
+                    <div class="reseaux-sos">
+                        <a href="#"><img src="./public/images/reseaux sociaux/Facebook.png" alt=""></a>
+                        <a href="#"><img src="./public/images/reseaux sociaux/github1600.png" alt=""></a>
+                        <a href="#"><img src="./public/images/reseaux sociaux/linkedin-1.png" alt=""></a>
+                        <a href="#"><img src="./public/images/reseaux sociaux/whatsapp-icon.png" alt=""></a>
+                        <a href="#"><img id="logo-mail" src="./public/images/reseaux sociaux/mail.png" alt=""></a>
+                    </div>
+                    <hr class="bg-dark">
+
+                </div>
+
+            </div>
+            <div class="source text-secondary text-right">
+                <p><small>Développé par Rahma Belmustapha. Ⓒ Coding-scool 2018-2019</small></p>
+            </div>
+        </div>
+
+    </footer>
 
 
 
