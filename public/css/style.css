@@ -34,21 +34,19 @@ nav a:hover{
 }
 #heading{
     background: black;
+    margin-bottom: 0px;
 }
 /* about carousel */
 #banner{
     /* height: 60%; */
     background: url("../images/bg/bg-dark.jpg");
     color : white;
-    
 }
 
 
 
 /* footer */
-.divid-footer{
-border-left: 2px solid #ffc107;
-}
+
 footer{
 background: #222;
 }
@@ -56,16 +54,31 @@ background: #222;
     color:  #ffc107;
 }
 .reseaux-sos img{
-    width: 40px;
+    width: 30px;
 }
 .reseaux-sos img:hover{
     border-radius: 50%;
     background: #ccc;
 }
-#logo-mail{
-    width: 30px;
-}
+
 /* page cv */
+#langues{
+    background: url("../images/bg/bluetheme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.langue-drap{
+    height: 100px;
+    width: auto;
+}
+.langue-drap img{
+    height: 100%;
+    width: auto;
+}
+#smalls img{
+    height: 10px;
+    width: auto;
+}
 .formation{
     background: url("../images/bg/dark-graphic.jpg"); 
     background-attachment: fixed;
@@ -206,7 +219,10 @@ background: #222;
 }
 /* page accueil */
 .language img{
-    width: 100px ;
+    width: 40px ;
+}
+.language #icon-js{
+    /* width: 70px; */
 }
 #phone{
     width: 50% ;
@@ -214,9 +230,12 @@ background: #222;
 /* page contact */
 #contact{
      background: #222;
-    
-    /* height:700px; */
 }
 .formulaire input, .formulaire textarea{
     background: #eedd;
+}
+
+/* page portfolio */
+.portfolio-item img:hover{
+    opacity: 0.5;
 }
