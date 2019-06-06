@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;   
+}
+
 /* general */
 img{
     max-width: 100%;
