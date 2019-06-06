@@ -1,4 +1,4 @@
-
+/* general */
 img{
     max-width: 100%;
     height: auto;
@@ -32,18 +32,27 @@ nav a:hover{
 .bold{
     font-weight: bold;
 }
-#heading{
+.heading{
     background: black;
     margin-bottom: 0px;
 }
-/* about carousel */
-#banner{
-    /* height: 60%; */
+/* about  */
+#banner,#banner-cv{
+    height: auto;
     background: url("../images/bg/bg-dark.jpg");
     color : white;
 }
+#banner a,#banner-cv a{
+    text-decoration: none;
+}
+/* #banner a:hover,#banner-cv a:hover{
+    background: #fff;
+    color: #222;
+} */
 
-
+#avatar img{
+    width: 300px;
+}
 
 /* footer */
 
@@ -60,7 +69,9 @@ background: #222;
     border-radius: 50%;
     background: #ccc;
 }
-
+.reseaux-sos a{
+    text-decoration: none;
+}
 /* page cv */
 #langues{
     background: url("../images/bg/bluetheme.jpg");
@@ -76,8 +87,11 @@ background: #222;
     width: auto;
 }
 #smalls img{
-    height: 10px;
+    height: 20px;
     width: auto;
+}
+#projects img:hover{
+    opacity: 0.7;
 }
 .formation{
     background: url("../images/bg/dark-graphic.jpg"); 
@@ -115,10 +129,9 @@ background: #222;
     position: absolute;
     top: 16px;
     left: 50%;
-    margin-left: -25px;
-    
+    margin-left: -25px;   
 }
-/* :: */
+/* end icon*/
 .panel-container{
     width: 50%;
     float: left;
@@ -225,8 +238,10 @@ background: #222;
     /* width: 70px; */
 }
 #phone{
-    width: 50% ;
+    width: 70%;
 }
+/* ////home end///////////: */
+
 /* page contact */
 #contact{
      background: #222;
